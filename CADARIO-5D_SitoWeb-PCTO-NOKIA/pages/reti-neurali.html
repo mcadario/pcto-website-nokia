@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCTO - Reti Neurali</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">PCTO<img src="../images/nokia-logo.png" alt="logo nokia"></a>
+            <nav>
+                <ul id="menu">
+                    <li id="element-1"><a href="../index.html#attivita">Back
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero hero-pages">
+            <div class="container">
+                <h1>Le Reti Neurali</h1>
+                <p class="subtitle">Breve introduzione sulle reti neurali e sul loro funzionamento.</p>
+            </div>
+        </section>
+        <section class="reti-neurali-section">
+            <div class="container">
+                <h2>Reti Neruali</h2>
+                <div class="reti-neurali-content1">
+                    <div class="reti-neurali-text">
+                        <p>
+                            L’esperienza è iniziata con un’introduzione alle <strong>reti neurali artificiali</strong>,
+                            un argomento <strong>affascinante</strong> e centrale nel mondo dell’intelligenza
+                            artificiale. Durante le prime ore, abbiamo approfondito i concetti fondamentali del loro
+                            funzionamento: si tratta di <strong>modelli matematici ispirati al cervello umano</strong>,
+                            composti da <strong>neuroni artificiali interconnessi</strong>, in grado di
+                            <strong>apprendere</strong> e fare <strong>previsioni</strong> a partire da dati reali.
+                        </p>
+                    </div>
+                    <div class="reti-neurali-image">
+                        <img src="../images/reti-neurali-white.png" title="Esempio di rete neurale" alt="Rete Neurale" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reti-neurali-section2">
+            <div class="container">
+                <div class="reti-neurali-content2">
+                    <div class="reti-neurali-text2">
+                        <p>
+                            Per comprendere meglio il meccanismo alla base dell’<strong>apprendimento
+                                automatico</strong>, abbiamo simulato una rete neurale con <strong>un singolo
+                                neurone</strong> utilizzando un <strong>foglio Excel</strong>. Questo semplice modello
+                            aveva l'obiettivo di <strong>prevedere i prezzi delle case</strong> sulla base di alcuni
+                            parametri di input. Il grafico qui sotto mostra l’<strong>andamento del training del
+                                neurone</strong>: con ogni iterazione, il sistema ha cercato di <strong>minimizzare
+                                l’errore</strong> tra le previsioni e i dati reali.
+                        </p>
+                    </div>
+                    <img src="../images/excel-neural.png" title="Grafico di previsione" class="reti-neurali-grafico" alt="Grafico previsione prezzi">
+                    <div class="reti-neurali-text2">
+                        <p>
+                            Per effettuare la previsione del prezzo, è stata utilizzata una semplice formula lineare
+                            basata sui pesi aggiornati ad ogni step. La formula è: <br><br>
+                            <span class="formula">Prezzo Previsto = (Superficie × w₀) + (Piano × w₁)</span><br><br>dove
+                            <strong>w₀</strong> e <strong>w₁</strong> sono i pesi associati rispettivamente alla
+                            superficie dell’appartamento (in m²) e al piano su cui si trova.
+                        </p>
+
+                        <p>
+                            Questi pesi vengono aggiornati ad ogni iterazione grazie all’<strong>algoritmo di
+                                apprendimento</strong>, che modifica i valori in base all’errore tra il prezzo previsto
+                            e quello reale. La variazione di ogni peso è calcolata usando la formula <br><br>
+                            <span class="formula">Variazione = Errore × Ingresso × Learning Coefficient</span><br><br>con un coefficiente
+                            di apprendimento (LC) molto piccolo per garantire l’ottimizzazione graduale.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">PCTO<img src="../images/nokia-logo.png" alt="logo nokia"></a>
+                    <p class="p-center">Esperienza PCTO che integra IA, Programmazione, Robotica.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Link Utili</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Termini di Servizio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-competenze">
+                    <h3>Nokia IT</h3>
+                    <a href="https://www.nokia.com/" target="_blank" class="nokia-button">Vai al sito</a>
+                    <p class="p-center">Clicca per andare al sito di Nokia.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="p-center">&copy; 2025 Michele Cadario. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script/script.js"></script>
+</body>
+
+</html>
